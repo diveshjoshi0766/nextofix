@@ -507,7 +507,7 @@ button {
 .movies_section {
     width: 100%;
     float: left;
-    background-color: #3c0e0e;
+    background-color: #ffffff;
     height: auto;
     padding-top: 0px;
     padding-bottom: 90px;
@@ -529,16 +529,16 @@ button {
 .movies_menu li {
     float: left;
     font-size: 18px;
-    color: #ffffff;
+    color: #000000;
     padding: 0px 25px;
 }
 
 .movies_menu li a {
-    color: #ffffff;
+    color: #000000;
 }
 
 .movies_menu li a:hover {
-    color: #d89616;
+    color: #074193;
     border-bottom: 5px solid #d89616;
     z-index: 2;
     position: relative;
@@ -546,7 +546,7 @@ button {
 
 .movies_menu:after {
     content: '';
-    border: 1px solid #ffffff;
+    border: 1px solid #000000;
     position: relative;
     width: 890px;
     text-align: center;
@@ -660,6 +660,16 @@ button {
     padding-top: 20px;
     padding-bottom: 0px;
 }
+.code_text_card{
+    width: 100%;
+    float: left;
+    font-size: 14px;
+    color: #000000;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 5px;
+    padding-bottom: 0px;
+}
 
 .there_text {
     width: 100%;
@@ -675,6 +685,14 @@ button {
     font-size: 11px;
     color: #000000;
     text-align: center;
+    margin: 0px;
+}
+.there_text_card{
+    width: 100%;
+    float: left;
+    font-size: 13px;
+    color: #000000;
+    text-align: left;
     margin: 0px;
 }
 .there_button{
